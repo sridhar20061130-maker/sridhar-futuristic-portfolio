@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SRIDHAR S — B.Com Information Technology student and aspiring IT professional.">
+  <title>SRIDHAR S | Neon 3D AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader" aria-label="Loading portfolio">
+    <div class="loader-ring"></div>
+    <p>Initializing Sridhar.exe</p>
+  </div>
+
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Sridhar home"><span>✦</span> SRIDHAR S</a>
+    <button id="menuToggle" class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="siteNav" class="site-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#ai-lab">AI Lab</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">B.COM INFORMATION TECHNOLOGY • ASPIRING IT PROFESSIONAL</p>
+        <h1>Hello, I’m <span class="gradient-text">Sridhar S</span></h1>
+        <p class="hero-description">
+          Motivated B.Com Information Technology student with knowledge of web technologies,
+          accounting applications, and practical project development.
+        </p>
+        <div class="button-row">
+          <a class="button button-primary" href="#projects">Explore My Work <span>↗</span></a>
+          <a class="button button-outline" href="#contact">Contact Me</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/sridhar20061130-maker" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/sridhar-s-861b6234a" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:sridhar20061130@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal"><div class="neon-stars" aria-hidden="true"></div><div class="floating-orb orb-a"></div><div class="floating-orb orb-b"></div><div class="floating-orb orb-c"></div>
+        <div class="energy-orbit orbit-one"></div>
+        <div class="energy-orbit orbit-two"></div>
+        <div class="profile-card tilt-card">
+          <div class="profile-top">
+            <span class="small-label">PROFILE NODE</span>
+            <span class="live-dot">● ONLINE</span>
+          </div>
+          <div class="profile-avatar">
+            <img src="images/profile.jpeg" alt="Profile placeholder for Sridhar" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+            <span class="avatar-fallback">S</span>
+          </div>
+          <h2>SRIDHAR S</h2>
+          <p>Web Development • Tally Prime • AI Enthusiast</p>
+          <div class="location-pill">⌖ Tiruppur, Tamil Nadu</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / PROFILE</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="grid-two">
+        <article class="glass-card reveal">
+          <div class="card-icon">✦</div>
+          <h3>Career Objective</h3>
+          <p>
+            Motivated B.Com Information Technology student with knowledge of web technologies
+            and accounting applications. Skilled in Tally Prime, HTML, CSS, JavaScript,
+            and basic Excel, with practical project experience in web development.
+            Seeking an opportunity to apply my skills, gain professional experience,
+            and contribute to organizational growth.
+          </p>
+        </article>
+        <article class="glass-card reveal">
+          <div class="card-icon">⌘</div>
+          <h3>Education</h3>
+          <h4>B.Com (Information Technology)</h4>
+          <p>KPR College of Arts, Science and Research</p>
+          <p class="muted">Tiruppur, Tamil Nadu</p>
+          <div class="mini-line"></div>
+          <h4>Personal Interests</h4>
+          <p>Learning new technologies, exploring AI tools, improving technical skills, and playing cricket.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / CAPABILITIES</p>
+        <h2>Technical <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card glass-card reveal"><span class="skill-number">01</span><div class="skill-symbol">HTML</div><h3>HTML</h3><p>Semantic webpage structure</p><div class="skill-bar"><span style="--level:88%"></span></div></article>
+        <article class="skill-card glass-card reveal"><span class="skill-number">02</span><div class="skill-symbol">CSS</div><h3>CSS</h3><p>Responsive and visual design</p><div class="skill-bar"><span style="--level:82%"></span></div></article>
+        <article class="skill-card glass-card reveal"><span class="skill-number">03</span><div class="skill-symbol">JS</div><h3>JavaScript</h3><p>Interactive web experiences</p><div class="skill-bar"><span style="--level:76%"></span></div></article>
+        <article class="skill-card glass-card reveal"><span class="skill-number">04</span><div class="skill-symbol">T</div><h3>Tally Prime</h3><p>Accounting and voucher entry</p><div class="skill-bar"><span style="--level:78%"></span></div></article>
+        <article class="skill-card glass-card reveal"><span class="skill-number">05</span><div class="skill-symbol">X</div><h3>Basic Excel</h3><p>Spreadsheet handling</p><div class="skill-bar"><span style="--level:70%"></span></div></article>
+        <article class="skill-card glass-card reveal"><span class="skill-number">06</span><div class="skill-symbol">GH</div><h3>GitHub</h3><p>Project version control basics</p><div class="skill-bar"><span style="--level:68%"></span></div></article>
+      </div>
+      <div class="grid-two">
+        <article class="glass-card reveal">
+          <h3>Soft Skills</h3>
+          <div class="tags"><span>Teamwork</span><span>Quick Learning</span><span>Adaptability</span><span>Positive Attitude</span></div>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Languages</h3>
+          <div class="language-line"><b>Tamil</b><span>Native</span></div>
+          <div class="language-line"><b>English</b><span>Fluent</span></div>
+          <div class="language-line"><b>Japanese</b><span>Beginner</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / SELECTED WORK</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card tilt-card reveal">
+          <div class="project-top"><span>PROJECT 01</span><span>WEB</span></div>
+          <div class="project-art portfolio-art"><span>✦</span><b>SRIDHAR.S</b></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>Website showcasing profile, education, technical skills, projects, achievements, and professional information.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://sridhar-portfolio-iota.vercel.app/" target="_blank" rel="noreferrer">View Live Website ↗</a>
+        </article>
+        <article class="project-card tilt-card reveal">
+          <div class="project-top"><span>PROJECT 02</span><span>ECOMMERCE</span></div>
+          <div class="project-art mart-art"><span>🛒</span><b>ITACHI MART</b></div>
+          <h3>Itachi Mart E-Commerce</h3>
+          <p>Product-oriented e-commerce website demonstrating online shopping functionality and frontend development skills.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://itachi-mart-rgdg5cfh3-sridhar20061130-6568s-projects.vercel.app/" target="_blank" rel="noreferrer">View Live Website ↗</a>
+        </article>
+        <article class="project-card tilt-card reveal">
+          <div class="project-top"><span>PROJECT 03</span><span>AI</span></div>
+          <div class="project-art ai-art"><span>◉</span><b>AI LAB</b></div>
+          <h3>AI Portfolio Lab</h3>
+          <p>AI-focused portfolio interface with a portfolio assistant, career guide, and project explainer.</p>
+          <div class="tags"><span>AI UI</span><span>JavaScript</span><span>Node.js</span></div>
+          <a class="project-link" href="#ai-lab">Try AI Lab ↓</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / EXPERIENCE</p>
+        <h2>Internship <span class="gradient-text">Journey</span></h2>
+      </div>
+      <article class="glass-card timeline-card reveal">
+        <div class="timeline-badge">21 DAYS</div>
+        <h3>SP Associates, Tiruppur</h3>
+        <h4>Accounting Internship</h4>
+        <ul>
+          <li>Practiced basic accounting operations using Tally Prime.</li>
+          <li>Learned voucher entry and accounting procedures.</li>
+          <li>Practiced basic Excel operations and spreadsheet handling.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / MILESTONES</p>
+        <h2>Achievements & <span class="gradient-text">Activities</span></h2>
+      </div>
+      <div class="grid-two">
+        <article class="glass-card reveal">
+          <h3>Achievements</h3>
+          <ul>
+            <li><b>Ilam Vingyani 2019:</b> Second Prize for a Waste Management project.</li>
+            <li><b>Vegetable Carving 2019:</b> Third Prize.</li>
+          </ul>
+        </article>
+        <article class="glass-card reveal">
+          <h3>NCC & Extra-Curricular</h3>
+          <ul>
+            <li>NCC member for approximately 1½ years.</li>
+            <li>ATC Camp at MCET, Pollachi — 16 to 25 June 2025.</li>
+            <li>Chess participant — APEX 26.</li>
+          </ul>
+        </article>
+      </div>
+      <div class="grid-two">
+        <article class="glass-card reveal">
+          <h3>Certifications</h3>
+          <div class="tags"><span>Data Science and Analytics</span><span>AI for Beginners</span></div>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Hobbies & Interests</h3>
+          <div class="tags"><span>Learning new skills</span><span>New technologies</span><span>Playing cricket</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="ai-lab" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 / INTELLIGENT FEATURES</p>
+        <h2>AI <span class="gradient-text">Lab</span></h2>
+      </div>
+      <div class="ai-grid">
+        <article class="glass-card reveal">
+          <div class="card-icon">✧</div>
+          <h3>AI Career Guide</h3>
+          <p class="muted">Choose a career goal to generate a beginner-friendly roadmap.</p>
+          <label for="careerSelect">Career goal</label>
+          <select id="careerSelect">
+            <option>Web Developer</option>
+            <option>Data Analyst</option>
+            <option>Digital Marketer</option>
+            <option>IT Support</option>
+          </select>
+          <button id="careerBtn" class="button button-primary full-width">Generate Roadmap</button>
+          <pre id="careerOutput" class="output" aria-live="polite">Your roadmap will appear here.</pre>
+        </article>
+
+        <article class="glass-card reveal">
+          <div class="card-icon">◉</div>
+          <h3>AI Portfolio Assistant</h3>
+          <div id="chatWindow" class="chat-window" aria-live="polite">
+            <div class="chat-message bot">Hello! Ask me about Sridhar’s skills, projects, internship, achievements, or career objective.</div>
+          </div>
+          <form id="chatForm" class="chat-form">
+            <input id="chatInput" type="text" placeholder="Ask about Sridhar..." autocomplete="off" required>
+            <button class="button button-primary" type="submit">Send</button>
+          </form>
+          <p class="muted tiny">Local demo assistant. A real AI API can be connected through the backend.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">07 / CONNECT</p>
+        <h2>Let’s <span class="gradient-text">Connect</span></h2>
+      </div>
+      <article class="contact-card glass-card reveal">
+        <h3>Let’s build something useful.</h3>
+        <p class="muted">Interested in technology, web development, accounting applications, and continuous learning.</p>
+        <div class="contact-details">
+          <a href="tel:9150437014">☎ 9150437014</a>
+          <a href="mailto:sridhar20061130@gmail.com">✉ sridhar20061130@gmail.com</a>
+          <span>⌖ Tiruppur, Tamil Nadu</span>
+        </div>
+        <div class="button-row center">
+          <a class="button button-primary" href="https://www.linkedin.com/in/sridhar-s-861b6234a" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a class="button button-outline" href="https://github.com/sridhar20061130-maker" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+  <footer>© <span id="year"></span> SRIDHAR S. Designed with HTML, CSS, JavaScript and AI concepts.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
